@@ -1,18 +1,18 @@
 /* Base & Tokens */
 :root {
-  --bg-color: #1a0b0b;
-  --panel-bg: rgba(127, 29, 29, 0.25);
+  --bg-color: #141212;
+  --panel-bg: rgba(30, 27, 27, 0.75);
   --text-main: #ffffff;
-  --text-muted: #fecaca;
-  --primary: #dc2626;
-  --primary-hover: #b91c1c;
-  --secondary: #7f1d1d;
-  --secondary-hover: #991b1b;
+  --text-muted: #d6cfcf;
+  --primary: #8c1421;
+  --primary-hover: #a11726;
+  --secondary: #2b2626;
+  --secondary-hover: #383232;
   --success: #10b981;
   --warning: #f59e0b;
   --danger: #ef4444;
   --danger-hover: #dc2626;
-  --info: #fca5a5;
+  --info: #3b82f6;
 
   --palette-answered: #10b981;
   --palette-marked-answered: #3b82f6;
@@ -37,8 +37,8 @@ body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   background: var(--bg-color);
   background-image:
-    radial-gradient(circle at 15% 50%, rgba(220, 38, 38, 0.18), transparent 25%),
-    radial-gradient(circle at 85% 30%, rgba(127, 29, 29, 0.25), transparent 25%);
+    radial-gradient(circle at 15% 50%, rgba(140, 20, 33, 0.12), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(70, 10, 15, 0.15), transparent 25%);
   color: var(--text-main);
   min-height: 100vh;
   display: flex;
@@ -204,7 +204,7 @@ p {
 
 .test-card {
   padding: 1.5rem;
-  background: rgba(127, 29, 29, 0.15);
+  background: rgba(255, 255, 255, 0.03);
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-sm);
   cursor: pointer;
@@ -212,7 +212,7 @@ p {
 }
 
 .test-card:hover {
-  background: rgba(127, 29, 29, 0.25);
+  background: rgba(255, 255, 255, 0.08);
   transform: translateY(-2px);
 }
 
@@ -249,7 +249,7 @@ p {
 .test-header h1 {
   margin: 0;
   font-size: 1.5rem;
-  background: linear-gradient(90deg, #dc2626, #fca5a5);
+  background: linear-gradient(90deg, #a11726, #df8c95);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -293,13 +293,13 @@ p {
 }
 
 .subject-badge {
-  background: rgba(127, 29, 29, 0.4);
+  background: rgba(43, 38, 38, 0.8);
   color: #ffffff;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.875rem;
   font-weight: 600;
-  border: 1px solid rgba(220, 38, 38, 0.3);
+  border: 1px solid rgba(140, 20, 33, 0.3);
 }
 
 .question-content {
@@ -338,9 +338,9 @@ p {
 }
 
 .option-label.selected {
-  background: rgba(220, 38, 38, 0.15);
+  background: rgba(140, 20, 33, 0.15);
   border-color: var(--primary);
-  box-shadow: 0 0 10px rgba(220, 38, 38, 0.4);
+  box-shadow: 0 0 10px rgba(140, 20, 33, 0.2);
 }
 
 .action-buttons {
@@ -536,7 +536,7 @@ p {
 }
 
 .subject-card {
-  background: rgba(127, 29, 29, 0.15);
+  background: rgba(255, 255, 255, 0.03);
   border: 1px solid var(--glass-border);
   padding: 1rem;
   border-radius: var(--radius-sm);
