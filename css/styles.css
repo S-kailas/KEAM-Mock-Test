@@ -589,3 +589,18 @@ p {
     justify-content: center;
   }
 }
+
+/* Analysis Page Overrides */
+body.analysis-page {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+body.analysis-page .test-container {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+body.analysis-page .question-main {
+  overflow: visible !important;
+}
