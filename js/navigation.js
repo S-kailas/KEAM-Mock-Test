@@ -117,7 +117,7 @@ function saveCurrentAnswer() {
 
 }
 
-// ✅ FIXED MARK LOGIC
+
 window.handleMarkForReview = () => {
     let state = answers[currentQuestionIndex] || { selected: null, marked: false };
 
@@ -141,7 +141,7 @@ window.handleMarkForReview = () => {
 
     updateReviewButtonText();
 
-    // 🔥 CRITICAL FIX: delay navigation slightly
+    
     if (newMarked) {
         setTimeout(() => {
             const nextIdx = (currentQuestionIndex + 1) % testData.questions.length;
